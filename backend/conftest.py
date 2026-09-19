@@ -1,5 +1,9 @@
-"""Pytest configuration for RedForesight backend tests."""
+"""Pytest configuration for ARGUS backend tests."""
 import pytest
+
+
+pytest_plugins = ("pytest_asyncio",)
+
 
 @pytest.fixture(scope="session")
 def event_loop_policy():
