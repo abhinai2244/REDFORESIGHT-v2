@@ -1,0 +1,10 @@
+{
+  "chain_id": "chain_a",
+  "run_timestamp": "2026-07-15T14:00:00Z",
+  "steps": [
+    {"technique_id": "T1566.001", "executed_at": "2026-07-15T14:00:00Z", "host": "VICTIM-01"},
+    {"technique_id": "T1059.001", "executed_at": "2026-07-15T14:02:30Z", "host": "VICTIM-01"},
+    {"technique_id": "T1003.001", "executed_at": "2026-07-15T14:05:00Z", "host": "VICTIM-01"},
+    {"technique_id": "T1021.002", "executed_at": "2026-07-15T14:08:00Z", "host": "VICTIM-01"}
+  ]
+}
